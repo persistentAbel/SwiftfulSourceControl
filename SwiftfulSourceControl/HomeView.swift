@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
-  @State private var title: String = ""
+  @State private var title: String = "someTitle"
     var body: some View {
       VStack {
+        Text("Hi")
         Text("Screen Two")
         
         Text("Screen Two")
